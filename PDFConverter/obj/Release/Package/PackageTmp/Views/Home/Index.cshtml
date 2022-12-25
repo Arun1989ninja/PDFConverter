@@ -1,0 +1,245 @@
+﻿
+@{
+    ViewBag.Title = "PDFpuppy";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/PDFPuppy.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center" style="background-color: #f8f9fa">Advertisements</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            @*<img class="img-responsive" src="~/Images/Puppy5.png" alt="Chania" width="470" />*@
+            <img class="img-responsive" src="~/Images/puppy.png" alt="Chania" width="255" />
+        </div>
+        <div class="col-sm-6 text-wrap">
+
+            <h2 style="font-weight: 200; color: black; font-size: 4rem; width: 100%">
+                <b>D</b>ownload <b>U</b>nlimted <b>T</b>imes <b>PDF</b> <b>W</b>ith
+            </h2>  <h1 style="font-weight: 900;color:black; text-transform: uppercase; font-size: 4rem;width:100%"><b>PDF PUPPY</b></h1>
+
+            <h6 style="font-weight: 100;  font-size: 1.6rem;width:100%">
+                Enjoy <b>FREE PDF</b>.<br />
+                Easily Convert to <br />and from PDF in Seconds <b>!</b>
+            </h6>
+        </div>
+
+    </div>
+
+    <div class="pt-2 row">
+        <div class="card p-1" style="background-color: #f8f9fa">
+            @*<div class="card p-1" style="background-color: #f8f9fa">*@
+            <div>
+                @*<table width="100%">
+                        <thead>
+                            <tr><th colspan="3" style="text-align: center; "><h6 style="font-weight: 100;  font-size: 1.6rem;width:100%"><b>MEET OUR PRODUTCS</b></h6></th></tr>
+                        </thead>
+                        <tr>
+                            <td>
+
+                                <input type="file" id="upldWordtoPDF" />
+                                <input id="imgWordtoPDF" type="image" src="~/Images/wordtopdf1.png" style="height: 50px; width: 70px " />
+                                <br />
+                                <span>
+                                    <b>Word to PDF</b>
+                                </span>
+
+
+
+
+
+                            </td>
+                            <td>
+
+                                <input type="file" id="upldjpegtoPDF" />
+                                <input id="imgjpegtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                                <br />
+                                <span>
+                                    <b>JPEG to PDF</b>
+                                </span>
+
+
+
+
+
+                            </td>
+                            <td>
+
+                                <input type="file" id="upldpngtoPDF" />
+                                <input id="imgpngtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                                <br />
+                                <span>
+                                    <b>PNG to PDF</b>
+                                </span>
+
+                            </td>
+
+                        </tr>
+                        <tr>
+
+                            <td>
+
+                                <input type="file" id="upldtiffAndgifftoPDF" />
+                                <input id="tiffAndgifftoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                                <br />
+                                <span>
+                                    <b>Tiff/Gif to PDF</b>
+                                </span>
+
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </table>*@
+                <div class="row">
+                    <div class="col-12 text-center" style="font-family:Arial"><h6 style="font-weight: 100;  font-size: 1.6rem;width:100%"><b>MEET OUR PRODUTCS</b></h6></div>
+
+
+                    <div class="col-4">
+                        <input type="file" id="upldWordtoPDF" />
+                        <input id="imgWordtoPDF" type="image" src="~/Images/wordtopdf1.png" style="height: 50px; width: 70px " />
+                        <br />
+                        <span>
+                            <b>Word to PDF</b>
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldjpegtoPDF" />
+                        <input id="imgjpegtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                        <br />
+                        <span>
+                            <b>JPEG to PDF</b>
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldpngtoPDF" />
+                        <input id="imgpngtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                        <br />
+                        <span>
+                            <b>PNG to PDF</b>
+                        </span>
+                    </div>
+                    @*<div class="col-4">
+                            <input type="file" id="upldtiffAndgifftoPDF" />
+                            <input id="tiffAndgifftoPDF" type="image" src="~/Images/jpegtoPDF.jfif" style="height: 50px; width: 50px " />
+                            <br />
+                            <span>
+                                <b>Tiff/Gif to PDF</b>
+                            </span>
+                        </div>*@
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="d-flex col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa">
+
+                @*<img style="width: 3%; height: 3%; border-radius: 50%;" src="~/Images/download.jfif" alt="Image" />&nbsp;*@
+                <i class="fa fa-lightbulb-o yellowGlow" aria-hidden="true"></i>
+
+                <h5>How to Convert Files to and from PDF </h5>
+
+                <ul>
+
+                    <li>
+
+
+                        Select the Word, Excel, PowerPoint, <br />PDF or other file you wish to convert<b>(Max 4 MB)</b>.
+
+
+                    </li>
+                    <li>
+
+                        Our free PDF creator will convert<br /> your document to PDF or from PDF in seconds.
+
+                    </li>
+                    <li>
+
+
+                        Your new document will be ready to download immediately.
+
+                        After the download is complete,   files are purged from our server.
+
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex  pl-3 col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa;">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <h5>Automatic deletion of your files</h5>
+                @*<img style="width: 6%; height: 6%; border-radius: 50%;" src="~/Images/Delete2.jfif" alt="Image" />*@
+
+                <ul>
+
+                    <li>
+
+
+                        After you convert a document to PDF, we delete your files from our servers.
+
+
+                    </li>
+                    <li>
+
+                        We dont save  any files
+
+                    </li>
+                    <li>
+
+                        They will be deleted from our server automatically after 45 seconds to ensure your information is secure.
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex pl-3 col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa;">
+                <i class="fa fa-exchange" aria-hidden="true"></i>
+                @*<img style="width: 6%; height: 6%; border-radius: 50%;" src="~/Images/Convertion.png" alt="Image" />&nbsp;*@
+                <h5>Universal conversion </h5>
+                <ul>
+
+                    <li>
+
+
+                        Our free file converter works on any OS, including Windows, Mac, and Linux.
+
+
+                    </li>
+                    <li>
+
+                        Because of this, you can convert files to PDF from any OS.
+
+                    </li>
+                    <li>
+
+
+                        As long as you have an Internet connection.
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="loading">
+
+    <h4>Puppy is Processing PDF...</h4>
+
+
+</div>
+
+
+
+

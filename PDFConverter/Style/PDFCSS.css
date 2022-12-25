@@ -1,0 +1,53 @@
+﻿ol.counter {
+    list-style: none;
+    counter-reset: item;
+}
+
+li.counter {
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+
+    li.counter:before {
+        margin-right: 10px;
+        content: counter(item);
+        background: #ffffff;
+        border-radius: 50%;
+        color: black;
+        width: 1.5em;
+        height: 1.5em;
+        text-align: center;
+        display: inline-block;
+    }
+
+input[type="file"] {
+    display: none;
+}
+th, td {
+    padding: 3px;
+}
+ul#footer li {
+    display: inline;
+    
+}
+
+
+
+.loading {
+    
+    background: #c7cccb url('../Images/PuppyRunning.gif') no-repeat center center;
+    opacity: 1;
+    border: 1px solid;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: "Trirong", serif;
+}
+.yellowGlow {
+    color: #000000;
+    text-shadow: 0 0 3px #fbee23;
+}
