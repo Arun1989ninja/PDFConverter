@@ -22,5 +22,5 @@ Libraries  may be in various states of development. Seeking contributions for al
 
 # Note 
 
-:warning: This Repository uses Aspose.PDF.22.12.0.nupkg as it is  >150 Mb .This is not included.You may need to download it seperatly to make the project run
+<h3>:warning: </h3>This Repository uses Aspose.PDF.22.12.0.nupkg as it is  >150 Mb .This is not included.You may need to download it seperatly to make the project run
  
