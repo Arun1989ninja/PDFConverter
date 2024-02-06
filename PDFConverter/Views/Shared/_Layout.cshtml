@@ -6,13 +6,16 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script async src="~/Scripts/bootstrap.min.js"></script>
     <link href="~/Style/PDFCSS.css" rel="stylesheet" />
-    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script async src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7046960466244160"
+            crossorigin="anonymous"></script>
     @RenderSection("AdditionalMeta", false)
 </head>
 @*style="background-color: #e6e6e6 "*@
@@ -21,26 +24,26 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/home"><b>PDF PUPPY</b></a>
+            <a class="navbar-brand" href="/"><b>Free PDF Converter</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link inactive" aria-current="page" href="/home"><b>Home</b></a>
+                        <a class="nav-link inactive" aria-current="page" href="/"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/Contact"><b>Contact</b></a>
+                        <a class="nav-link" href="/PDF/Contact"><b>Contact</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/SupportProject"><b>Support Project</b></a>
+                        <a class="nav-link" href="/PDF/SupportProject"><b>Support Project</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/Feedback"><b>Feedback</b></a>
+                        <a class="nav-link" href="/PDF/Feedback"><b>Feedback</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/News"><b>News</b></a>
+                        <a class="nav-link" href="/PDF/News"><b>News</b></a>
                     </li>
                 </ul>
                 @*<li class="nav-item dropdown">
@@ -99,12 +102,13 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <ul id="footer" style="list-style: none">
-                        <li><a style="color:black" href="/home/PrivacyPolicy"><b>Privacy Policy</b></a></li>&nbsp;|
-                        <li><a style="color:black" href="/home/SupportProject"><b>Support Project</b></a></li>&nbsp;|
-                        <li><a style="color:black" href="/home/DataProtectionSecurity"><b>Data Protection and Security</b></a></li>&nbsp;|
-                        <li><a style="color:black" href="/home/Contact"><b>Contact & Support</b></a></li>
+                        <li><a style="color:black;text-decoration:none" href="/PDF/PrivacyPolicy">Privacy Policy</li>&nbsp;|
+                        <li><a style="color:black;text-decoration:none" href="/PDF/SupportProject">Support Project</li>&nbsp;|
+                        <li><a style="color:black;text-decoration:none" href="/PDF/DataProtectionSecurity">Data Protection and Security</li>&nbsp;|
+                        <li><a style="color:black;text-decoration:none" href="/PDF/Contact">Contact & Support</li>
                     </ul>
                 </div>
+
                 <div class="col-12">
                     <div style="text-align:center"><p>Copyright &copy; 2022-@DateTime.Now.Year <b>PDFpuppy.com</b>. All rights reserved.</p></div>
                 </div>
@@ -114,6 +118,8 @@
         @Scripts.Render("~/bundles/jquery")
 
         @RenderSection("scripts", required: false)
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63ad431c17ac39e9"></script>
 
 </body>
 
