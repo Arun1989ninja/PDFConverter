@@ -20,7 +20,7 @@ PDF Converter offers a wide range of services
 This repository contains source code for developing a  basic pdf converter web application
 Libraries  may be in various states of development. Seeking contributions for all of these libraries:
 
-# Note 
+# Note  <h2>:warning: </h2>
 
-<h3>:warning: </h3>This Repository uses Aspose.PDF.22.12.0.nupkg as it is  >150 Mb .This is not included.You may need to download it seperatly to make the project run
+This Repository uses Aspose.PDF.22.12.0.nupkg as it is  >150 Mb .This is not included.You may need to download it seperatly to make the project run
  
