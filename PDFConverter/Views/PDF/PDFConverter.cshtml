@@ -1,0 +1,370 @@
+﻿
+@{
+    ViewBag.Title = "PDF Converter - Convert to PDF Files Online FREE - PDFPuppy";
+}
+@section AdditionalMeta
+{
+    <meta name="apple-mobile-web-app-title" content="PDF Converter - Convert to PDF Files Online FREE - PDFPuppy">
+    <meta name="application-name" content="PDF Converter - Convert to PDF Files Online FREE - PDFPuppy">
+    <meta name="author" content="pdfpuppy.com">
+    <meta name="keywords" content="Merge PDF, split PDF, combine PDF, extract PDF, compress PDF, convert PDF, Word to PDF, Excel to PDF, Powerpoint to PDF, PDF to JPG, JPG to PDF">
+    <meta name="Description" content="PDFpuppy Free PDF Converter is a online web-based document to PDF converter software. Convert and create PDF from various types of files like Word DOC, Excel XLS, PowerPoint PPT.">
+    <meta property="og:title" content="PDF Converter - Convert to PDF Files Online FREE - PDFPuppy">
+    <meta property="og:description" content="PDFpuppy Free PDF Convert is a online web-based document to PDF converter software. Convert and create PDF from various types of files like Word DOC, Excel XLS, PowerPoint PPT.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PDF Converter - Convert to PDF Files Online FREE - PDFPuppy">
+    <meta name="twitter:description" content="PDFpuppy is a online web-based document to PDF converter software. Convert and create PDF from various types of files like Word DOC, Excel XLS, PowerPoint PPT.">
+    <link rel="canonical" href="https://www.Pdfpuppy.com">
+    <meta property="og:url" content="https://www.Pdfpuppy.com">
+
+}
+
+<script async src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script async src="~/Scripts/PDFPuppy.js?1.3.10"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center" style="background-color: #f8f9fa">Advertisements</div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+
+            <img class="img-responsive" src="~/Images/puppy.png" alt="PDF Converter PDF Puppy" width="225" />
+        </div>
+        <div class="col-sm-6 text-wrap">
+
+            <h2 style="font-weight: 200; color: black; font-size: 4rem; width: 100%">
+                <b>D</b>ownload <b>U</b>nlimited <b>PDF</b> <b>W</b>ith
+            </h2>  <h1 style="font-weight: 900;color:black; text-transform: uppercase; font-size: 4rem;width:100%"><b>PDF PUPPY</b></h1>
+
+            <h6 style="font-weight: 100;  font-size: 1.6rem;width:100%">
+                Enjoy <b>FREE PDF Converter Tool</b>.<br />
+                Easily Convert to <br />and from PDF in Seconds <b>!</b>
+            </h6>
+        </div>
+
+    </div>
+
+    <div class="pt-2 row">
+        <div class="card p-1" style="background-color: #f8f9fa">
+
+            <div>
+                <div class="row">
+                    <div class="col-12 text-center" style="font-family:Arial"><h6 style="font-weight: 100;  font-size: 1.6rem;width:100%"><b>PDF Converter Tools</b></h6></div>
+
+
+                    <div class="col-4">
+                        <input type="file" id="upldWordtoPDF" />
+                        <input id="imgWordtoPDF" type="image" src="~/Images/wordtopdf1.png" alt="Word to PDF Convertion Button" style="height: 50px; width: 70px " />
+                        <br />
+                        <span>
+                            <b>Word to PDF</b>
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldjpegtoPDF" />
+                        <input id="imgjpegtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" alt="JPEG to PDF Convertion Button" style="height: 50px; width: 50px " />
+                        <br />
+                        <span>
+                            <b>JPEG to PDF</b>
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldpngtoPDF" />
+                        <input id="imgpngtoPDF" type="image" src="~/Images/jpegtoPDF.jfif" alt="PNG to PDF Convertion Button" style="height: 50px; width: 50px  " />
+                        <br />
+                        <span>
+                            <b>PNG to PDF</b>
+                        </span>
+                    </div>
+
+                </div>
+                <br />
+                <div class="row">
+
+                    <div class="col-4">
+                        <input id="MergePDF" type="image" src="~/Images/MergePDF.jfif" alt="Merge PDFs Button" style="height: 40px; width: 40px  " />
+                        <br />
+                        <span>
+                            <b>Merge PDF</b>
+                        </span>
+
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldTxttoPDF" accept=".txt" />
+                        <input id="imgtxttoPDF" type="image" src="~/Images/txttoPDF.png" alt="TXT to PDF Convertion Button" style="height: 40px; width: 40px " />
+                        <br />
+                        <span>
+                            <b>Text to PDF</b>
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <input type="file" id="upldTxttoPDFBulk" multiple accept=".txt" />
+                        <input id="imgtxttoPDFBulk" type="image" alt="Multiple TXTs to single PDF Convertion Button" src="~/Images/txttoPDF.png" style="height: 40px; width: 40px " />
+                        <br />
+                        <span>
+                            <b>Text to PDF(Bulk)</b>
+                        </span>
+                    </div>
+
+                </div>
+                <br />
+                <div class="row">
+
+                    <div class="col-4">
+                        <input type="file" id="upldSplitPDF" />
+                        <input id="imgupldSplitPDF" type="image" src="~/Images/SplitPDF.png" alt="PDF Spliting Button" style="height: 40px; width: 40px " />
+                        <br />
+                        <span>
+                            <b>Split PDF</b>
+                        </span>
+
+                    </div>
+
+                    <div class="col-4">
+                        <input type="file" id="upldPDFtoWord" />
+                        <input id="imgupldPDFtoWord" type="image" src="~/Images/PDFtoWord.png" alt="PDF  to Doc Convertion Button" style="height: 45px; width: 45px " />
+                        <br />
+                        <span>
+                            <b>PDF to Word(.doc)</b>
+                        </span>
+
+                    </div>
+
+                    <div class="col-4">
+                        <input type="file" id="upldPDFtoWorddocx" />
+                        <input id="imgupldPDFtoWorddocx" type="image" src="~/Images/PDFtoWord.png" alt="PDF to Docx Convertion Button" style="height: 45px; width: 45px " />
+                        <br />
+                        <span>
+                            <b>PDF to Word(.docx)</b>
+                        </span>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="d-flex col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa">
+
+                <i class="fa fa-lightbulb-o yellowGlow" aria-hidden="true"></i>
+
+                <h5>How to Convert Files to and from PDF </h5>
+
+                <ul>
+
+                    <li>
+
+
+                        Select the Word, Excel, PowerPoint, <br />PDF or other file you wish to convert<b>(Max 4 MB)</b>.
+
+
+                    </li>
+                    <li>
+
+                        Our free PDF Converter will convert<br /> your document to PDF or from PDF in seconds.
+
+                    </li>
+                    <li>
+
+
+                        Your new document will be ready to download immediately.
+
+                        After the download is complete,  PDF Converter files are purged from our server.
+
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex  pl-3 col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa;">
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <h5>Automatic deletion of your files</h5>
+
+                <ul>
+
+                    <li>
+
+
+                        After you convert a document to PDF using PDF Converter, we delete your files from our servers.
+
+
+                    </li>
+                    <li>
+
+                        We dont save  any files
+
+                    </li>
+                    <li>
+
+                        They will be deleted from our server automatically after 45 seconds to ensure your information is secure.
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex pl-3 col-sm-4 p-1">
+            <div class="card p-1" style="background-color: #f8f9fa;">
+                <i class="fa fa-exchange" aria-hidden="true"></i>
+                <h5>Universal conversion </h5>
+                <ul>
+
+                    <li>
+
+
+                        Our free PDF Converter works on any OS, including Windows, Mac, and Linux.
+
+
+                    </li>
+                    <li>
+
+                        Because of this, you can convert files to PDF from any OS.
+
+                    </li>
+                    <li>
+
+
+                        As long as you have an Internet connection.
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="loading">
+
+    <h5>Puppy is Processing PDF...</h5>
+
+
+</div>
+
+
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+
+                <div class="col-md-6 text-center">
+
+                    <h5 class="modal-title"><button id="submitMergePDF" type="button" class="btn btn-primary btn">Merge PDF</button></h5>
+
+
+
+
+                </div>
+                <div class="col-md-6 text-center">
+
+
+                    <button id="mergeModalClose" type="button" class="btn btn-danger">Close</button>&nbsp;&nbsp;Add File
+                    <button id="MergePDFAdd" type="button" class="btn btn-success btn-circle btn-lg"><i class="fa fa-plus-circle"></i></button>
+                    <input type="file" id="upldMergePDFFiles" accept="application/pdf" />
+
+                </div>
+
+            </div>
+
+
+            <!-- Modal body -->
+            <div class="modal-body" style="background-color: #f3f0ec">
+                <div id="myModal">
+                    (Max 5 files)
+                    <div id="pdf-main-container">
+
+
+
+                        <div class="row">
+                            <div id="pdf-contents">
+                                <div class="d-flex col-sm">
+                                    <div class="card" id="card1" style="background-color: #f6f6f8; width: 15rem;text-align:center">
+                                        <div class="p-5">
+                                            <span class="pull-right clickable close-icon" id="closeicon1"><i class="fa fa-times"></i></span>
+
+                                            <canvas id="pdf-canvas1" class="p-2 shadow p-3 mb-5 bg-white rounded" width="110"></canvas>
+                                            <div id="canvas1name" style="width: 138px; font-size: 12px; text-align: center; font-weight: bold; "></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br />
+                                <div class="d-flex col-sm">
+                                    <div class="card" id="card2" style="background-color: #f6f6f8; width: 15rem;text-align:center">
+                                        <div class="p-5">
+                                            <span class="pull-right clickable close-icon" id="closeicon2"><i class="fa fa-times"></i></span>
+
+                                            <canvas id="pdf-canvas2" class="p-2 shadow p-3 mb-5 bg-white rounded" width="110"></canvas>
+                                            <div id="canvas2name" style="width: 138px; font-size: 12px; text-align: center; font-weight: bold; "></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="d-flex col-sm">
+                                    <div class="card" id="card3" style="background-color: #f6f6f8; width: 15rem;text-align:center">
+                                        <div class="p-5">
+                                            <span class="pull-right clickable close-icon" id="closeicon3"><i class="fa fa-times"></i></span>
+
+                                            <canvas id="pdf-canvas3" class="p-2 shadow p-3 mb-5 bg-white rounded" width="110"></canvas>
+                                            <div id="canvas3name" style="width: 138px; font-size: 12px; text-align: center; font-weight: bold; "></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br />
+                                <div class="d-flex col-sm">
+                                    <div class="card" id="card4" style="background-color: #f6f6f8; width: 15rem;text-align:center">
+                                        <div class="p-5">
+                                            <span class="pull-right clickable close-icon" id="closeicon4"><i class="fa fa-times"></i></span>
+
+                                            <canvas id="pdf-canvas4" class="p-2 shadow p-3 mb-5 bg-white rounded" width="110"></canvas>
+                                            <div id="canvas4name" style="width: 138px; font-size: 12px; text-align: center; font-weight: bold; "></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <br />
+                                <div class="d-flex col-sm">
+                                    <div class="card" id="card5" style="background-color: #f6f6f8; width: 15rem;text-align:center">
+                                        <div class="p-5">
+                                            <span class="pull-right clickable close-icon" id="closeicon5"><i class="fa fa-times"></i></span>
+
+                                            <canvas id="pdf-canvas5" class="p-2 shadow p-3 mb-5 bg-white rounded" width="110"></canvas>
+                                            <div id="canvas5name" style="width: 138px; font-size: 12px; text-align: center; font-weight: bold; "></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+
+
+        </div>
+    </div>
+</div>

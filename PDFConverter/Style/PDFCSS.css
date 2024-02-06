@@ -33,8 +33,8 @@ ul#footer li {
 
 
 
-.loading {
-    
+.loading { 
+
     background: #c7cccb url('../Images/PuppyRunning.gif') no-repeat center center;
     opacity: 1;
     border: 1px solid;
@@ -50,4 +50,16 @@ ul#footer li {
 .yellowGlow {
     color: #000000;
     text-shadow: 0 0 3px #fbee23;
+}
+
+.close-icon {
+    cursor: pointer;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
 }
