@@ -16,3 +16,8 @@ PDF Converter offers a wide range of services
 * Split PDF 
 * PDF to Word(.doc) 
 * PDF to Word(.docx)
+# About This Repository
+This repository contains source code for developing a  basic pdf converter web application
+Libraries  may be in various states of development. Seeking contributions for all of these libraries:
+
+ 
