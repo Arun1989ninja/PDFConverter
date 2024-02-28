@@ -18,7 +18,7 @@ PDF Converter offers a wide range of services
 * PDF to Word(.docx)
 # About This Repository
 This repository contains source code for developing a  basic pdf converter web application
-Libraries  may be in various states of development. Seeking contributions for all of these libraries:
+. Seeking contributions from all for further improvement
 
 # Note  <h2>:warning: </h2>
 
